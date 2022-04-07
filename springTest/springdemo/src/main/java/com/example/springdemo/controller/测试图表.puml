@@ -1,0 +1,39 @@
+@startuml
+用户 -> 登陆页面:Authentication Request
+...
+登陆页面 -> 登陆service:Authentication Request
+...
+登陆页面 -> 登陆页面: Authentication Request
+...
+alt 完全
+autonumber 1 2 "[000]"
+用户 -> 登陆页面: Authentication Request
+登陆页面 -> 登陆service: Authentication Request
+end
+
+====
+@enduml
+
+
+@startuml
+start
+:输入用户名和密码;
+if(用户名和密码是否正确) then (错误)
+   :成功登陆;
+else (false)
+endif
+stop
+@enduml
+
+
+@startuml
+考勤服务 -> ps服务:Authentication Request
+...
+ps服务  -> 考勤服务:Authentication Request
+...
+ps服务 -> k: Authentication Request
+...
+
+@enduml
+
+

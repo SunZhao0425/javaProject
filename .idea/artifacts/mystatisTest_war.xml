@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="mystatisTest:war">
+    <output-path>$PROJECT_DIR$/../mystatisTest/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>mystatisTest</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="mystatisTest-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="mystatisTest:war exploded" />
+    </root>
+  </artifact>
+</component>

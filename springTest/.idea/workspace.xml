@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2136118c-d399-496e-a86a-7d939adbb1c2" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Kotlin File" />
+        <option value="package-info" />
+        <option value="Interface" />
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:\Program Files\apache-maven-3.8.1" />
+        <option name="userSettingsFile" value="D:\Program Files\apache-maven-3.8.1\conf\settings-qpass.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1zzOlzDYavATPep4j8EXcbrdq9g" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../console/mobile-server" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\project\360\java-demo2\springTest\springdemo\src\main\resources\com.example.springdemo.mapper" />
+      <recent name="E:\project\360\java-demo2\springTest\springdemo\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\project\360\java-demo2\mystatisTest\src\main\resources" />
+      <recent name="E:\project\360\java-demo2\mystatisTest\src\main\java" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.springdemo.mapper" />
+      <recent name="com.example.springdemo.common.pattern.observe" />
+      <recent name="com.example.springdemo.common.pattern.singleton" />
+      <recent name="com.example.springdemo.dto.resp" />
+      <recent name="com.example.springdemo.entity" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SpringdemoApplication">
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.springdemo.controller.Demo" />
+      <module name="springdemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.springdemo.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.springdemo.utils.FileUtils" />
+      <module name="springdemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.springdemo.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IdCardUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.springdemo.utils.IdCardUtils" />
+      <module name="springdemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.springdemo.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RunnableDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.springdemo.controller.RunnableDemo" />
+      <module name="springdemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.springdemo.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.springdemo.common.pattern.demo" />
+      <module name="springdemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.springdemo.common.pattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="user" type="Application" factoryName="Application">
+      <module name="mystatisTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringdemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springdemo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springdemo.SpringdemoApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.user" />
+      <item itemvalue="Application.IdCardUtils" />
+      <item itemvalue="Application.RunnableDemo" />
+      <item itemvalue="Application.FileUtils" />
+      <item itemvalue="Application.Demo" />
+      <item itemvalue="Application.demo" />
+      <item itemvalue="Spring Boot.SpringdemoApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.demo" />
+        <item itemvalue="Application.Demo" />
+        <item itemvalue="Application.RunnableDemo" />
+        <item itemvalue="Application.FileUtils" />
+        <item itemvalue="Application.IdCardUtils" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2136118c-d399-496e-a86a-7d939adbb1c2" name="Default Changelist" comment="" />
+      <created>1635147607123</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1635147607123</updated>
+      <workItem from="1635147608243" duration="5424000" />
+      <workItem from="1635153940465" duration="57231000" />
+      <workItem from="1635759509616" duration="176000" />
+      <workItem from="1639040666515" duration="56136000" />
+      <workItem from="1639534307977" duration="1432000" />
+      <workItem from="1641897017306" duration="9696000" />
+      <workItem from="1642038905754" duration="2108000" />
+      <workItem from="1642044469842" duration="16868000" />
+      <workItem from="1642586436682" duration="1177000" />
+      <workItem from="1642592017313" duration="179000" />
+      <workItem from="1642644999643" duration="913000" />
+      <workItem from="1642734259620" duration="203000" />
+      <workItem from="1643422512262" duration="4981000" />
+      <workItem from="1643428128343" duration="22605000" />
+      <workItem from="1644372524549" duration="5680000" />
+      <workItem from="1644401731890" duration="750000" />
+      <workItem from="1644459026129" duration="88755000" />
+      <workItem from="1645412425773" duration="13651000" />
+      <workItem from="1645512026911" duration="23874000" />
+      <workItem from="1645755110375" duration="13398000" />
+      <workItem from="1646031244957" duration="4860000" />
+      <workItem from="1646041281643" duration="94000" />
+      <workItem from="1646041794577" duration="2812000" />
+      <workItem from="1646189787429" duration="4370000" />
+      <workItem from="1646206313660" duration="598000" />
+      <workItem from="1646291207542" duration="2215000" />
+      <workItem from="1646300489363" duration="17339000" />
+      <workItem from="1646621628130" duration="41737000" />
+      <workItem from="1646964597945" duration="43723000" />
+      <workItem from="1647423699127" duration="30000" />
+      <workItem from="1647841762696" duration="727000" />
+      <workItem from="1647850528586" duration="1788000" />
+      <workItem from="1647857691062" duration="13000" />
+      <workItem from="1648018987719" duration="1232000" />
+      <workItem from="1649231494252" duration="649000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../../../repository/com/baomidou/mybatis-plus-core/3.1.0/mybatis-plus-core-3.1.0.jar!/com/baomidou/mybatisplus/core/override/MybatisMapperMethod.class</url>
+          <line>240</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../../../repository/org/apache/commons/commons-pool2/2.9.0/commons-pool2-2.9.0.jar!/org/apache/commons/pool2/impl/GenericObjectPool.class</url>
+          <line>137</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springdemo/src/main/java/com/example/springdemo/utils/IdCardUtils.java</url>
+          <line>93</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springdemo/src/main/java/com/example/springdemo/utils/IdCardUtils.java</url>
+          <line>283</line>
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springdemo/src/main/java/com/example/springdemo/utils/FileUtils.java</url>
+          <line>175</line>
+          <option name="timeStamp" value="205" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springdemo/src/main/java/com/example/springdemo/utils/FileUtils.java</url>
+          <line>270</line>
+          <option name="timeStamp" value="208" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springdemo/src/main/java/com/example/springdemo/utils/FileUtils.java</url>
+          <line>269</line>
+          <option name="timeStamp" value="210" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springdemo/src/main/java/com/example/springdemo/controller/UserController.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="226" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springdemo/src/main/java/com/example/springdemo/controller/UserController.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="227" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springdemo/src/main/java/com/example/springdemo/controller/UserController.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="228" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springdemo/src/main/java/com/example/springdemo/service/impl/VacationTypeServiceImpl.java</url>
+          <line>204</line>
+          <option name="timeStamp" value="259" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springdemo/src/main/java/com/example/springdemo/service/impl/VacationTypeServiceImpl.java</url>
+          <line>203</line>
+          <option name="timeStamp" value="260" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springdemo/src/main/java/com/example/springdemo/service/impl/VacationTypeServiceImpl.java</url>
+          <line>214</line>
+          <option name="timeStamp" value="263" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springdemo/src/main/java/com/example/springdemo/service/impl/VacationTypeServiceImpl.java</url>
+          <line>228</line>
+          <option name="timeStamp" value="264" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springdemo/src/main/java/com/example/springdemo/service/impl/VacationTypeServiceImpl.java</url>
+          <line>213</line>
+          <option name="timeStamp" value="265" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="org.joda.time.Period" memberName="iType" />
+        <PinnedItemInfo parentTag="org.springframework.boot.DefaultApplicationArguments$Source" memberName="logger" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/springTest$SpringdemoApplication.ic" NAME="SpringdemoApplication Coverage Results" MODIFIED="1646623566408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>

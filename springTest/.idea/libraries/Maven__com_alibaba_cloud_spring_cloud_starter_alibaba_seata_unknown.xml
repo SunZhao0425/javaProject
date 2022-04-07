@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.alibaba.cloud:spring-cloud-starter-alibaba-seata:unknown">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../../repository/com/alibaba/cloud/spring-cloud-starter-alibaba-seata/unknown/spring-cloud-starter-alibaba-seata-unknown.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../../../repository/com/alibaba/cloud/spring-cloud-starter-alibaba-seata/unknown/spring-cloud-starter-alibaba-seata-unknown-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../../repository/com/alibaba/cloud/spring-cloud-starter-alibaba-seata/unknown/spring-cloud-starter-alibaba-seata-unknown-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
