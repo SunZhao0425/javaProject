@@ -5,13 +5,23 @@ import com.example.springdemo.entity.KqYearVacationEntity;
 import com.example.springdemo.mapper.KqStaffMapper;
 import com.example.springdemo.mapper.KqYearVacationMapper;
 import com.example.springdemo.service.VacationTypeService;
+import org.apache.poi.hssf.usermodel.HSSFRow;
+import org.apache.poi.hssf.usermodel.HSSFSheet;
+import org.apache.poi.hssf.usermodel.HSSFWorkbook;
+import org.apache.poi.xssf.usermodel.XSSFRow;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.joda.time.DateTime;
 import org.joda.time.Period;
 import org.joda.time.PeriodType;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
+import org.springframework.web.multipart.MultipartFile;
 
+import java.io.IOException;
+import java.io.InputStream;
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -157,6 +167,54 @@ public class VacationTypeServiceImpl implements VacationTypeService {
         return String.valueOf(yearDay);
     }
 
+    /***
+     * 如果是xls，使用HSSFWorkbook；如果是xlsx，使用XSSFWorkbook
+     * @param file
+     * @return
+     * @throws Exception
+     */
+    @Override
+    public int importCheckSpeaker(MultipartFile file) throws Exception {
+        if(file.isEmpty()){
+            return  0 ;
+        }
+        InputStream is = file.getInputStream();
+        List<String> checkSpeakerList = new ArrayList<>();
+        //1.创建工作簿
+        XSSFWorkbook workbook = new XSSFWorkbook(is);
+        XSSFSheet sheet = null;
+        XSSFRow row = null;
+
+        //2.遍历Excel中所有的sheet
+        for (int i = 0; i < workbook.getNumberOfSheets(); i++) {
+            sheet = workbook.getSheetAt(i);
+            if (sheet == null) {
+                continue;
+            }
+            // 3.遍历当前sheet中的所有行(从第二行开始，序号为1)
+            for (int j = 1; j < sheet.getLastRowNum(); j++) {
+                row = sheet.getRow(j);
+                System.out.println(row.getCell(0).getStringCellValue());
+
+                if (row == null) {
+                    continue;
+                }
+//                CheckSpeakerEntity checkSpeakerEntity = new CheckSpeakerEntity();
+                //4.把每个单元格的值赋给对象的对应属性
+//                checkSpeakerEntity.setVoice_id(row.getCell(0).getStringCellValue());
+//                checkSpeakerEntity.setCtrl_num(row.getCell(1).getStringCellValue());
+//                checkSpeakerEntity.setOrder_num(Integer.parseInt(row.getCell(2).getStringCellValue()));
+//                checkSpeakerEntity.setCtrl_name(row.getCell(3).getStringCellValue());
+//                checkSpeakerEntity.setDiscard_flag(Integer.parseInt(row.getCell(4).getStringCellValue()));
+//                checkSpeakerList.add(checkSpeakerEntity);
+            }
+        }
+//        //5.遍历完成，保存数据
+//        return speakerCheckDao.insertCheckSpeakerList(checkSpeakerList);
+
+        return 1;
+    }
+
     /**
      * 请年假
      * 1. 请年假
@@ -196,6 +254,7 @@ public class VacationTypeServiceImpl implements VacationTypeService {
 
     @Autowired
     KqYearVacationMapper kqYearVacationMapper;
+
     /**
      * 定时任务, 每天早上5点更新一下 年假
      */

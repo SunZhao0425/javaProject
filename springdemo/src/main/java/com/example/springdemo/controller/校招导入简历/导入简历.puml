@@ -1,0 +1,11 @@
+@startuml
+start
+:根据moka获取简历数据;
+:设置接口运行时间为永久,接口运行完毕,才结束;
+:获取接口参数(date, hi, sign);
+:验证请假参数;
+if (判断是否为育儿假类型) then (true)
+else(false)
+endif
+stop
+@enduml

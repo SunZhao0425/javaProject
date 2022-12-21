@@ -1,0 +1,31 @@
+@startuml
+start
+:验证提交参数;
+:将提交的相关信息添加到resume_offer 表中;
+:更改resume_base表中status 的状态为已提交offer;
+:组合提交ps 的信息;
+:请求ps,提交offer信息接口;
+if (请求offer接口是否成功) then (true)
+:组合面试信息;
+:请求ps接口,提交面试信息到ps中;
+if(请求面试信息接口是否成功) then (then)
+: 请求ps, 提交面试评价PDF到ps中;
+if(请求提交面试评价PDF是否成功) then (then)
+: 返回,提交offer成功;
+else (false)
+:更新resume_offer表中offer信息为删除, 并记录失败原因;
+:更新resume_base表中status 的状态为未处理状态;
+end
+endif
+else (false)
+:更新resume_offer表中offer信息为删除, 并记录失败原因;
+:更新resume_base表中status 的状态为未处理状态;
+end
+endif
+else (false)
+:更新resume_offer表中offer信息为删除, 并记录失败原因;
+:更新resume_base表中status 的状态为未处理状态;
+end
+endif
+stop
+@enduml

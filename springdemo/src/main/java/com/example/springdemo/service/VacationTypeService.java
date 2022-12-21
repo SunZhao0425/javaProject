@@ -1,6 +1,8 @@
 package com.example.springdemo.service;
 
 
+import org.springframework.web.multipart.MultipartFile;
+
 /**
  * @version V1.0
  * @ClassName
@@ -16,4 +18,6 @@ public interface VacationTypeService {
     String illVacation();
 
     String yearVacation();
+
+    int importCheckSpeaker(MultipartFile file) throws Exception;
 }
